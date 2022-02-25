@@ -1,7 +1,5 @@
-from tkinter import Image
 import streamlit as st
 import requests
-from PIL import Image
 import datetime
 import pandas as pd
 
