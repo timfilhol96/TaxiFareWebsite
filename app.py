@@ -23,7 +23,7 @@ columns = st.columns(2)
 dropoff_longitude=columns[0].number_input('Dropoff Longitude',40.6513111)
 dropoff_latitude=columns[1].number_input('Dropoff Latitude',-73.8803331)
 
-passenger_count=st.slider('🕺 Passenger Count 🕺', 1, 4, 1)
+passenger_count=st.slider('🕺 Passenger Count 🕺', 1, 4, 2)
 
 url = 'https://taxifare.lewagon.ai/predict'
 
