@@ -45,6 +45,6 @@ response= requests.get(
 ).json()
 
 
-if st.button('Get the fare 💵'):
+if st.button('💵 Get the fare 💵'):
     st.metric('Predicted Fare',f'{round(response["fare"],2)} USD')
     st.markdown("![Alt Text](https://media1.giphy.com/media/14SAx6S02Io1ThOlOY/giphy.gif?cid=ecf05e47bqzrw6oixl94iiis8dlaor7pnduytptyuecy9ud1&rid=giphy.gif)")
